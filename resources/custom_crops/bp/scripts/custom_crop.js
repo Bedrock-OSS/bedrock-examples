@@ -11,6 +11,11 @@ const randomInt = (min, max) =>
 /** @type {import("@minecraft/server").BlockCustomComponent} */
 const BlockGrowableComponent = {
     onRandomTick({ block }, { params }) {
+        const minLightLevel = params.min_light_level;
+
+        const lightLevel = block.getLightLevel();
+        if (lightLevel < minLightLevel) return;
+
         const growthState = params.growth_state;
         const growthChance = params.growth_chance / 100;
 
@@ -31,8 +36,10 @@ const BlockGrowableComponent = {
         if (!equippable) return;
 
         const mainhand = equippable.getEquipmentSlot(EquipmentSlot.Mainhand);
-        if (!mainhand.hasItem() || mainhand.typeId !== "minecraft:bone_meal")
-            return;
+        const hasBoneMeal =
+            mainhand.hasItem() && mainhand.typeId === "minecraft:bone_meal";
+
+        if (!hasBoneMeal) return;
 
         if (player.getGameMode() === GameMode.Creative) {
             // Grow crop fully

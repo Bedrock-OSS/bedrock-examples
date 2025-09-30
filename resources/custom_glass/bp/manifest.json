@@ -4,14 +4,14 @@
         "name": "Custom Glass",
         "description": "Adds custom glass blocks",
         "uuid": "335fde30-84d7-4f2d-ba4a-f5b0d2bcee64",
-        "version": [ 1, 0, 0 ],
-        "min_engine_version": [ 1, 21, 90 ]
+        "version": "1.1.0",
+        "min_engine_version": [1, 21, 110]
     },
     "modules": [
         {
             "type": "data",
             "uuid": "306547ad-e6f0-40b8-bc14-7140a6d8fe35",
-            "version": [ 1, 0, 0 ]
+            "version": "1.1.0"
         }
     ]
 }

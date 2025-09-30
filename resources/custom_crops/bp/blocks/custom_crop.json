@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.90",
+    "format_version": "1.21.110",
     "minecraft:block": {
         "description": {
             "identifier": "wiki:custom_crop",
@@ -57,6 +57,7 @@
                     "wiki:growable": {
                         "growth_state": "wiki:growth",
                         "growth_chance": 50, // 50% chance to grow on each random tick
+                        "min_light_level": 9, // Minimum light level needed to grow on random ticks
                         "max_growth": 7
                     }
                 }
