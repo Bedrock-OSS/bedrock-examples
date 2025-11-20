@@ -1,0 +1,13 @@
+{
+    "texture_data": {
+        "wiki:paper_bag": {
+            "textures": "textures/wiki/blocks/paper_bag"
+        },
+        "wiki:paper_bag_bottom_fold": {
+            "textures": "textures/wiki/blocks/paper_bag_bottom_fold"
+        },
+        "wiki:paper_bag_side_gusset": {
+            "textures": "textures/wiki/blocks/paper_bag_side_gusset"
+        }
+    }
+}

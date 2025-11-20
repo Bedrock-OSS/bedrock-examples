@@ -1,0 +1,31 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "models/blocks/paper_bag.geo.json"
+        },
+        {
+            "path": "texts/en_US.lang"
+        },
+        {
+            "path": "texts/languages.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/wiki/blocks/paper_bag.png"
+        },
+        {
+            "path": "textures/wiki/blocks/paper_bag_bottom_fold.png"
+        },
+        {
+            "path": "textures/wiki/blocks/paper_bag_side_gusset.png"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Block Models Example",
+        "description": "A pack to demonstrate custom block models. Example from wiki.bedrock.dev!",
+        "uuid": "157204d0-3cb8-49f9-a6c4-358a8d3581a9",
+        "version": "1.0.0",
+        "min_engine_version": [1, 21, 0]
+    },
+    "metadata": {
+        "authors": ["Bedrock-OSS", "QuazChick"],
+        "license": "MIT",
+        "url": "https://wiki.bedrock.dev/blocks/block-models"
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "dd9f13ca-4421-4768-8bb3-1bc6e2e08e59",
+            "version": "1.0.0"
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "1a5ddc78-cda1-4eb6-b3a4-c7cbcdf8175f",
+            "version": "1.0.0"
+        }
+    ]
+}
