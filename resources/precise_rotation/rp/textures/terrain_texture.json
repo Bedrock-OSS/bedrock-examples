@@ -1,9 +1,7 @@
 {
-    "resource_pack_name": "precise-rotation",
-    "texture_name": "atlas.terrain",
     "texture_data": {
         "wiki:shell": {
-            "textures": "textures/blocks/shell"
+            "textures": "textures/wiki/blocks/shell"
         }
     }
 }

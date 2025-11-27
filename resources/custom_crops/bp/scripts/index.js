@@ -1,1 +1,1 @@
-import "./custom_crop";
+import "./customCrop.js";

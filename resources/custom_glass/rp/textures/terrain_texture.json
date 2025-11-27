@@ -1,9 +1,7 @@
 {
-    "resource_pack_name": "snippets",
-    "texture_name": "atlas.terrain",
     "texture_data": {
-        "custom_glass": {
-            "textures": "textures/custom_glass/glass"
+        "wiki:custom_glass": {
+            "textures": "textures/wiki/blocks/custom_glass"
         }
     }
 }

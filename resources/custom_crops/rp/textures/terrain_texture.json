@@ -1,6 +1,4 @@
 {
-    "resource_pack_name": "custom-crops",
-    "texture_name": "atlas.terrain",
     "texture_data": {
         "wiki:custom_crop_0": {
             "textures": "textures/blocks/custom_crop_0"

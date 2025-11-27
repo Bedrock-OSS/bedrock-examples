@@ -1,6 +1,4 @@
 {
-    "resource_pack_name": "custom-crops",
-    "texture_name": "atlas.items",
     "texture_data": {
         "wiki:custom_seeds": {
             "textures": "textures/items/custom_seeds"

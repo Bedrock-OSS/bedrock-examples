@@ -7,7 +7,7 @@
                 "default": "entity_alphatest"
             },
             "textures": {
-                "default": "textures/entity/ghost"
+                "default": "textures/wiki/entity/ghost"
             },
             "geometry": {
                 "default": "geometry.ghost"

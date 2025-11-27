@@ -2,11 +2,7 @@
     "format_version": "1.10.0",
     "render_controllers": {
         "controller.render.ghost": {
-            "materials": [
-                {
-                    "*": "material.default"
-                }
-            ],
+            "materials": [{ "*": "material.default" }],
             "geometry": "geometry.default",
             "textures": ["texture.default"]
         }

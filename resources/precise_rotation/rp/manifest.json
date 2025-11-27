@@ -4,8 +4,9 @@
         "name": "Precise Rotation Example",
         "description": "Adds a rotatable shell block to demonstrate custom head-like rotation. Example from wiki.bedrock.dev!",
         "uuid": "a1fdd80f-7109-42f3-918a-9c82334dce89",
-        "version": "3.1.0",
-        "min_engine_version": [1, 21, 110]
+        "version": "3.1.1",
+        "min_engine_version": [1, 21, 120],
+        "pack_scope": "world"
     },
     "metadata": {
         "authors": ["Bedrock-OSS", "QuazChick"],
@@ -15,10 +16,10 @@
         {
             "type": "resources",
             "uuid": "fd497be0-2023-4f13-92f0-e212e128aef4",
-            "version": "3.1.0"
+            "version": "3.1.1"
         }
     ],
     "dependencies": [
-        { "uuid": "a80a2439-9670-4498-981d-700bfc7c694c", "version": "3.1.0" }
+        { "uuid": "a80a2439-9670-4498-981d-700bfc7c694c", "version": "3.1.1" }
     ]
 }
