@@ -1,16 +1,16 @@
 {
     "texture_data": {
         "wiki:custom_crop_0": {
-            "textures": "textures/blocks/custom_crop_0"
+            "textures": "textures/wiki/blocks/custom_crop_0"
         },
         "wiki:custom_crop_1": {
-            "textures": "textures/blocks/custom_crop_1"
+            "textures": "textures/wiki/blocks/custom_crop_1"
         },
         "wiki:custom_crop_2": {
-            "textures": "textures/blocks/custom_crop_2"
+            "textures": "textures/wiki/blocks/custom_crop_2"
         },
         "wiki:custom_crop_3": {
-            "textures": "textures/blocks/custom_crop_3"
+            "textures": "textures/wiki/blocks/custom_crop_3"
         }
     }
 }

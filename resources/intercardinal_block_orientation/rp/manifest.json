@@ -1,0 +1,31 @@
+{
+    "format_version": 3,
+    "header": {
+        "name": "Intercardinal Block Orientation",
+        "description": "An add-on that demonstrates blocks that can be placed facing intercardinal directions. Example from wiki.bedrock.dev!",
+        "uuid": "1220995f-01cc-434e-aef1-2354c5e5f1f8",
+        "version": "1.0.0",
+        "min_engine_version": "1.26.0",
+        "pack_scope": "world"
+    },
+    "metadata": {
+        "authors": ["Bedrock OSS", "QuazChick"],
+        "license": "MIT",
+        "product_type": "addon",
+        "url": "https://wiki.bedrock.dev/blocks/intercardinal-orientation"
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "3f23a2ca-3416-453d-b3cc-36e4c6766f76",
+            "version": "1.0.0"
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "ea936986-c674-4270-9a2c-77a8889f6134",
+            "version": "1.0.0"
+        }
+    ],
+    "capabilities": ["pbr"]
+}

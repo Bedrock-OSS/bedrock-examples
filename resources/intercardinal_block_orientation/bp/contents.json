@@ -1,0 +1,19 @@
+{
+    "content": [
+        {
+            "path": "blocks/mug.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "pack_icon.png"
+        },
+        {
+            "path": "scripts/index.js"
+        },
+        {
+            "path": "scripts/intercardinalOrientation.js"
+        }
+    ]
+}

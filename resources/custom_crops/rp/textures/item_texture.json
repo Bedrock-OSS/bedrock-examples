@@ -1,10 +1,10 @@
 {
     "texture_data": {
         "wiki:custom_seeds": {
-            "textures": "textures/items/custom_seeds"
+            "textures": "textures/wiki/items/custom_seeds"
         },
         "wiki:custom_food": {
-            "textures": "textures/items/custom_food"
+            "textures": "textures/wiki/items/custom_food"
         }
     }
 }

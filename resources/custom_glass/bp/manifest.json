@@ -1,17 +1,29 @@
 {
-    "format_version": 2,
+    "format_version": 3,
     "header": {
         "name": "Custom Glass",
-        "description": "Adds custom glass blocks",
+        "description": "An add-on that demonstrates custom glass blocks. Example from wiki.bedrock.dev!",
         "uuid": "335fde30-84d7-4f2d-ba4a-f5b0d2bcee64",
-        "version": "1.1.1",
-        "min_engine_version": [1, 21, 120]
+        "version": "1.1.2",
+        "min_engine_version": "1.26.0"
+    },
+    "metadata": {
+        "authors": ["Bedrock OSS", "QuazChick"],
+        "license": "MIT",
+        "url": "https://wiki.bedrock.dev/blocks/custom-glass-blocks",
+        "product_type": "addon"
     },
     "modules": [
         {
             "type": "data",
             "uuid": "306547ad-e6f0-40b8-bc14-7140a6d8fe35",
-            "version": "1.1.1"
+            "version": "1.1.2"
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "623f5603-79f2-4a5b-9ad5-f7e377560e6e",
+            "version": "1.1.2"
         }
     ]
 }

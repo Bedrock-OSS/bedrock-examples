@@ -1,0 +1,31 @@
+{
+    "content": [
+        {
+            "path": "blocks/custom_crop.json"
+        },
+        {
+            "path": "items/custom_food.json"
+        },
+        {
+            "path": "items/custom_seeds.json"
+        },
+        {
+            "path": "loot_tables/wiki/blocks/custom_crop_mature.json"
+        },
+        {
+            "path": "loot_tables/wiki/blocks/custom_crop_young.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "pack_icon.png"
+        },
+        {
+            "path": "scripts/cropGrowth.js"
+        },
+        {
+            "path": "scripts/index.js"
+        }
+    ]
+}
