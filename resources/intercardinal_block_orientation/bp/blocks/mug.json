@@ -1,0 +1,73 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "wiki:mug",
+            "menu_category": {
+                "category": "items"
+            },
+            "states": {
+                "wiki:intercardinal_direction": {
+                    "values": { "min": 0, "max": 15 }
+                }
+            }
+        },
+        "components": {
+            // Sets the "wiki:intercardinal_direction" state to the correct value before the block is placed
+            "wiki:intercardinal_orientation": {
+                "y_rotation_offset": 180 // Face towards the player
+            },
+            // Collision and selection boxes
+            "minecraft:collision_box": {
+                "origin": [-3, 0, -3],
+                "size": [6, 8, 6]
+            },
+            "minecraft:selection_box": {
+                "origin": [-3, 0, -3],
+                "size": [6, 8, 6]
+            },
+            // Visuals
+            "minecraft:destruction_particles": {
+                "particle_count": 48
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.mug",
+                "bone_visibility": {
+                    "0": "math.mod(q.block_state('wiki:intercardinal_direction'), 4) == 0",
+                    "22.5": "math.mod(q.block_state('wiki:intercardinal_direction'), 4) == 1",
+                    "45": "math.mod(q.block_state('wiki:intercardinal_direction'), 4) == 2",
+                    "67.5": "math.mod(q.block_state('wiki:intercardinal_direction'), 4) == 3"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": { "texture": "wiki:mug" }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('wiki:intercardinal_direction') >= 0",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 180, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('wiki:intercardinal_direction') >= 4",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 90, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('wiki:intercardinal_direction') >= 8",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 0, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('wiki:intercardinal_direction') >= 12",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, -90, 0] }
+                }
+            }
+        ]
+    }
+}

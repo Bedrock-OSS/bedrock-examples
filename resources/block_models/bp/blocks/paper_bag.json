@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.120",
+    "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
             "identifier": "wiki:paper_bag",
@@ -12,6 +12,10 @@
             "minecraft:selection_box": {
                 "origin": [-7, 0, -4],
                 "size": [14, 13, 8]
+            },
+            // Prevent blocks such as fences and glass panes from connecting
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
             },
             // Apply your model by referencing its identifier
             "minecraft:geometry": "geometry.paper_bag",

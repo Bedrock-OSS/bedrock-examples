@@ -1,9 +1,0 @@
-{
-  "resource_pack_name": "custom-fluids",
-  "texture_name": "atlas.items",
-  "texture_data": {
-    "custom_fluid_bucket": {
-      "textures": "textures/items/bucket_lava"
-    }
-  }
-}

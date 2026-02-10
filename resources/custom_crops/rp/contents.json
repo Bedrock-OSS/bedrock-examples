@@ -1,0 +1,49 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "models/blocks/custom_crop.geo.json"
+        },
+        {
+            "path": "pack_icon.png"
+        },
+        {
+            "path": "texts/en_US.lang"
+        },
+        {
+            "path": "texts/languages.json"
+        },
+        {
+            "path": "textures/item_texture.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/wiki/blocks/custom_crop_0.png"
+        },
+        {
+            "path": "textures/wiki/blocks/custom_crop_1.png"
+        },
+        {
+            "path": "textures/wiki/blocks/custom_crop_2.png"
+        },
+        {
+            "path": "textures/wiki/blocks/custom_crop_3.png"
+        },
+        {
+            "path": "textures/wiki/items/custom_food.png"
+        },
+        {
+            "path": "textures/wiki/items/custom_seeds.png"
+        }
+    ]
+}

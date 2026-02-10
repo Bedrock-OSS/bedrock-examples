@@ -1,9 +1,0 @@
-{
-  "resource_pack_name": "custom-tree",
-  "texture_name": "atlas.items",
-  "texture_data": {
-    "custom_sapling_placer": {
-      "textures": "textures/blocks/sapling_oak"
-    }
-  }
-}

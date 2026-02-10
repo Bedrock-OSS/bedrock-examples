@@ -1,0 +1,22 @@
+{
+    "texture_data": {
+        "wiki:custom_head_back": {
+            "textures": "textures/wiki/custom_head_back"
+        },
+        "wiki:custom_head_bottom": {
+            "textures": "textures/wiki/custom_head_bottom"
+        },
+        "wiki:custom_head_front": {
+            "textures": "textures/wiki/custom_head_front"
+        },
+        "wiki:custom_head_left": {
+            "textures": "textures/wiki/custom_head_left"
+        },
+        "wiki:custom_head_right": {
+            "textures": "textures/wiki/custom_head_right"
+        },
+        "wiki:custom_head_top": {
+            "textures": "textures/wiki/custom_head_top"
+        }
+    }
+}

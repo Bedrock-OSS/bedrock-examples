@@ -1,0 +1,31 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "models/blocks/mug.geo.json"
+        },
+        {
+            "path": "pack_icon.png"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/wiki/blocks/mug.png"
+        },
+        {
+            "path": "textures/wiki/blocks/mug.texture_set.json"
+        },
+        {
+            "path": "textures/wiki/blocks/mug_mers.tga"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "format_version": 3,
+    "header": {
+        "name": "Custom Heads Example",
+        "description": "An add-on that demonstrates custom mob head blocks that can be worn. Example from wiki.bedrock.dev!",
+        "uuid": "8a539b8e-683c-45fe-a40d-a5195a52e5ec",
+        "version": "1.0.0",
+        "min_engine_version": "1.26.0"
+    },
+    "metadata": {
+        "authors": ["Bedrock OSS", "QuazChick"],
+        "license": "MIT",
+        "product_type": "addon",
+        "url": "https://wiki.bedrock.dev/blocks/custom-heads"
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "8f21af6b-87b7-48e1-badd-2065f8a448e6",
+            "version": "1.0.0"
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "entry": "index.js",
+            "uuid": "990d7b17-5242-4ad0-849f-ee943295abd7",
+            "version": "1.0.0"
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "74219fc7-b08b-4f03-92ed-08b793ff2555",
+            "version": "1.0.0"
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.5.0"
+        }
+    ]
+}

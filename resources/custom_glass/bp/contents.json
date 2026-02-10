@@ -1,0 +1,13 @@
+{
+    "content": [
+        {
+            "path": "blocks/custom_glass.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "pack_icon.png"
+        }
+    ]
+}

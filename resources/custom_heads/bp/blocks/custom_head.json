@@ -1,0 +1,174 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "wiki:custom_head",
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": ["minecraft:block_face"]
+                }
+            },
+            "states": {
+                "wiki:intercardinal_direction": {
+                    "values": { "min": 0, "max": 15 }
+                }
+            }
+        },
+        "components": {
+            // Collision and selection boxes
+            "minecraft:collision_box": {
+                "origin": [-4, 0, -4],
+                "size": [8, 8, 8]
+            },
+            "minecraft:selection_box": {
+                "origin": [-4, 0, -4],
+                "size": [8, 8, 8]
+            },
+            // Prevents blocks (such as fences) from connecting to the block
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            // Prevents the block from being placed on the bottom face of another block
+            "minecraft:placement_filter": {
+                "conditions": [{ "allowed_faces": ["up", "side"] }]
+            },
+            // Prevents snow from accumulating above the block
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "none"
+            },
+            // Destruction
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 5
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1
+            },
+            "minecraft:destruction_particles": {
+                "particle_count": 48,
+                "texture": "soul_sand"
+            },
+            // Break and drop as an item when pushed by a piston
+            "minecraft:movable": {
+                "movement_type": "popped"
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "can_contain_liquid": true, // Allows the block to be waterlogged
+                        "on_liquid_touches": "popped" // Break and drop as an item when water flows into the block
+                    }
+                ]
+            },
+            // Visuals
+            "minecraft:geometry": {
+                "identifier": "geometry.custom_head",
+                "bone_visibility": {
+                    "0": "math.mod(q.block_state('wiki:intercardinal_direction'), 4) == 0",
+                    "22.5": "math.mod(q.block_state('wiki:intercardinal_direction'), 4) == 1",
+                    "45": "math.mod(q.block_state('wiki:intercardinal_direction'), 4) == 2",
+                    "67.5": "math.mod(q.block_state('wiki:intercardinal_direction'), 4) == 3"
+                }
+            },
+            "minecraft:material_instances": {
+                "down": {
+                    "texture": "wiki:custom_head_bottom",
+                    "ambient_occlusion": false
+                },
+                "up": {
+                    "texture": "wiki:custom_head_top",
+                    "ambient_occlusion": false
+                },
+                "north": {
+                    "texture": "wiki:custom_head_front",
+                    "ambient_occlusion": false
+                },
+                "south": {
+                    "texture": "wiki:custom_head_back",
+                    "ambient_occlusion": false
+                },
+                "west": {
+                    "texture": "wiki:custom_head_left",
+                    "ambient_occlusion": false
+                },
+                "east": {
+                    "texture": "wiki:custom_head_right",
+                    "ambient_occlusion": false
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'up'",
+                "components": {
+                    // Sets the "wiki:intercardinal_direction" state to the correct value before the block is placed
+                    "wiki:intercardinal_orientation": {
+                        "y_rotation_offset": 180 // Face towards the player
+                    }
+                }
+            },
+            // Intercardinal directions
+            {
+                "condition": "q.block_state('wiki:intercardinal_direction') >= 0",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 180, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('wiki:intercardinal_direction') >= 4",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 90, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('wiki:intercardinal_direction') >= 8",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 0, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('wiki:intercardinal_direction') >= 12",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, -90, 0] }
+                }
+            },
+            // Block face attachments
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0, 0, 0],
+                        "translation": [0, 0.25, 0.25]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0, 90, 0],
+                        "translation": [0.25, 0.25, 0]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0, 180, 0],
+                        "translation": [0, 0.25, -0.25]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0, -90, 0],
+                        "translation": [-0.25, 0.25, 0]
+                    }
+                }
+            }
+        ]
+    }
+}

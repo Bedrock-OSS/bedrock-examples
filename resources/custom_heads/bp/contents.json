@@ -1,0 +1,25 @@
+{
+    "content": [
+        {
+            "path": "blocks/custom_head.json"
+        },
+        {
+            "path": "items/custom_head.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "pack_icon.png"
+        },
+        {
+            "path": "scripts/headDrops.js"
+        },
+        {
+            "path": "scripts/index.js"
+        },
+        {
+            "path": "scripts/intercardinalOrientation.js"
+        }
+    ]
+}

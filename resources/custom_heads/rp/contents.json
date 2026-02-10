@@ -1,0 +1,82 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "models/blocks/custom_head.geo.json"
+        },
+        {
+            "path": "pack_icon.png"
+        },
+        {
+            "path": "texts/en_US.lang"
+        },
+        {
+            "path": "texts/languages.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/wiki/custom_head_back.png"
+        },
+        {
+            "path": "textures/wiki/custom_head_back.texture_set.json"
+        },
+        {
+            "path": "textures/wiki/custom_head_back_mers.tga"
+        },
+        {
+            "path": "textures/wiki/custom_head_bottom.png"
+        },
+        {
+            "path": "textures/wiki/custom_head_bottom.texture_set.json"
+        },
+        {
+            "path": "textures/wiki/custom_head_bottom_mers.tga"
+        },
+        {
+            "path": "textures/wiki/custom_head_front.png"
+        },
+        {
+            "path": "textures/wiki/custom_head_front.texture_set.json"
+        },
+        {
+            "path": "textures/wiki/custom_head_front_mers.tga"
+        },
+        {
+            "path": "textures/wiki/custom_head_left.png"
+        },
+        {
+            "path": "textures/wiki/custom_head_left.texture_set.json"
+        },
+        {
+            "path": "textures/wiki/custom_head_left_mers.tga"
+        },
+        {
+            "path": "textures/wiki/custom_head_right.png"
+        },
+        {
+            "path": "textures/wiki/custom_head_right.texture_set.json"
+        },
+        {
+            "path": "textures/wiki/custom_head_right_mers.tga"
+        },
+        {
+            "path": "textures/wiki/custom_head_top.png"
+        },
+        {
+            "path": "textures/wiki/custom_head_top.texture_set.json"
+        },
+        {
+            "path": "textures/wiki/custom_head_top_mers.tga"
+        }
+    ]
+}

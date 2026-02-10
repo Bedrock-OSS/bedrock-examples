@@ -1,32 +1,40 @@
 {
-    "format_version": 2,
+    "format_version": 3,
     "header": {
         "name": "Custom Crops Example",
-        "description": "A pack to demonstrate custom crops. Example from wiki.bedrock.dev!",
+        "description": "An add-on that demonstrates custom crops. Example from wiki.bedrock.dev!",
         "uuid": "3e90193d-591f-4ed1-b95a-025263cc0530",
-        "version": "3.1.1",
-        "min_engine_version": [1, 21, 120]
+        "version": "4.0.0",
+        "min_engine_version": "1.26.0"
     },
     "metadata": {
         "authors": ["Bedrock OSS", "QuazChick"],
-        "url": "https://wiki.bedrock.dev/blocks/custom-crops"
+        "license": "MIT",
+        "url": "https://wiki.bedrock.dev/blocks/custom-crops",
+        "product_type": "addon"
     },
     "modules": [
         {
             "type": "data",
             "uuid": "c57e3a1f-98fe-4896-a22e-df967b7b8d98",
-            "version": "3.1.1"
+            "version": "4.0.0"
         },
         {
             "type": "script",
             "language": "javascript",
             "entry": "index.js",
             "uuid": "55fa9bc4-6b83-4918-bf3a-77694cafdb84",
-            "version": "2.1.1"
+            "version": "4.0.0"
         }
     ],
     "dependencies": [
-        { "uuid": "4aa947fb-1a1e-4fe2-9af4-76dd2b00fd30", "version": "3.1.1" },
-        { "module_name": "@minecraft/server", "version": "2.3.0" }
+        {
+            "uuid": "4aa947fb-1a1e-4fe2-9af4-76dd2b00fd30",
+            "version": "4.0.0"
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.4.0"
+        }
     ]
 }

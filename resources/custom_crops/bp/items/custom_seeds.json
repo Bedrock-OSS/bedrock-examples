@@ -1,18 +1,21 @@
 {
-    "format_version": "1.21.120",
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "wiki:custom_seeds", // Make sure this is different from your crop's ID.
+            "identifier": "wiki:custom_seeds", // Make sure this is different from your crop's ID
             "menu_category": {
                 "category": "nature",
                 "group": "minecraft:itemGroup.name.seed"
             }
         },
         "components": {
-            "minecraft:icon": "wiki:custom_seeds",
             "minecraft:block_placer": {
-                "block": "wiki:custom_crop" // The block this item is placing.
-            }
+                "block": "wiki:custom_crop"
+            },
+            "minecraft:compostable": {
+                "composting_chance": 30 // 30% chance to increment the compost level
+            },
+            "minecraft:icon": "wiki:custom_seeds"
         }
     }
 }

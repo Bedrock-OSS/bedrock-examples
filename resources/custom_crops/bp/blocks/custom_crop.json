@@ -1,11 +1,8 @@
 {
-    "format_version": "1.21.120",
+    "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
             "identifier": "wiki:custom_crop",
-            "menu_category": {
-                "category": "none" // Hide from creative inventory - seeds should be used to place.
-            },
             "states": {
                 "wiki:growth": {
                     "values": { "min": 0, "max": 7 }
@@ -13,9 +10,28 @@
             }
         },
         "components": {
+            "tag:minecraft:crop": {},
             "minecraft:collision_box": false,
-            "minecraft:light_dampening": 0,
-            "minecraft:geometry": "geometry.crop", // Model provided in previous step.
+            // Trigger growth on random ticks and when interacting with Bone Meal
+            "wiki:crop_growth": {
+                "growth_state": "wiki:growth",
+                "max_growth": 7,
+                // Require a light level of 9 or above in order to grow on random ticks
+                "min_light_level": 9,
+                // Match the growth speed of vanilla crops
+                "farmland_search_range": 1,
+                "farmland_speed_modifier": 1,
+                "farmland_moisture_speed_modifier": 2,
+                "neighboring_farmland_speed_multiplier": 0.25,
+                "crowding_speed_multiplier": 0.5,
+                // Add 2-5 growth stages at random when a non-creative mode player uses Bone Meal on the crop
+                "growth_on_fertilize": [2, 5]
+            },
+            // Visuals
+            "minecraft:destruction_particles": {
+                "particle_count": 48
+            },
+            "minecraft:geometry": "geometry.custom_crop",
             "minecraft:material_instances": {
                 "*": {
                     "texture": "wiki:custom_crop_0",
@@ -24,7 +40,7 @@
                     "face_dimming": false
                 }
             },
-            // Break the crop if it isn't placed on farmland.
+            // Break the crop if it isn't placed on farmland
             "minecraft:placement_filter": {
                 "conditions": [
                     {
@@ -33,33 +49,34 @@
                     }
                 ]
             },
-            // Break the crop when water flows into it.
+            // Prevent rain from splashing and snow from accumulating on top of the block
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "none"
+            },
+            // Break the crop when water flows into it
             "minecraft:liquid_detection": {
                 "detection_rules": [
                     {
                         "liquid_type": "water",
-                        "on_liquid_touches": "broken"
+                        "on_liquid_touches": "popped"
                     }
                 ]
             },
             // Break the crop when it is pushed by a piston
             "minecraft:movable": {
                 "movement_type": "popped"
+            },
+            // Prevent blocks such as fences and glass panes from connecting
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
             }
         },
         "permutations": [
             {
                 "condition": "q.block_state('wiki:growth') < 7",
                 "components": {
-                    // Loot table for when the crop is not fully grown. Vanilla crops only drop seeds when young.
-                    "minecraft:loot": "loot_tables/blocks/custom_crop_young.json",
-                    // Trigger growth on random ticks and when interacting with bone meal (only active when the block isn't fully grown).
-                    "wiki:growable": {
-                        "growth_state": "wiki:growth",
-                        "growth_chance": 50, // 50% chance to grow on each random tick
-                        "min_light_level": 9, // Minimum light level needed to grow on random ticks
-                        "max_growth": 7
-                    }
+                    // Loot table for when the crop is not fully grown; vanilla crops only drop seeds when young
+                    "minecraft:loot": "loot_tables/wiki/blocks/custom_crop_young.json"
                 }
             },
             {
@@ -167,7 +184,7 @@
                         "size": [16, 12.8, 16]
                     },
                     // Drop different loot when fully grown
-                    "minecraft:loot": "loot_tables/blocks/custom_crop_mature.json"
+                    "minecraft:loot": "loot_tables/wiki/blocks/custom_crop_mature.json"
                 }
             }
         ]
