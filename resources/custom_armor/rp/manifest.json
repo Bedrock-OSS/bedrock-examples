@@ -1,0 +1,31 @@
+{
+    "format_version": 3,
+    "header": {
+        "name": "Custom Armor Example",
+        "description": "An add-on that demonstrates custom armor sets. Example from wiki.bedrock.dev!",
+        "uuid": "d21f1c57-0113-443a-b114-216e3975e7c9",
+        "version": "1.0.0",
+        "min_engine_version": "1.26.10",
+        "pack_scope": "world"
+    },
+    "metadata": {
+        "authors": ["Bedrock OSS", "QuazChick"],
+        "license": "MIT",
+        "product_type": "addon",
+        "url": "https://wiki.bedrock.dev/items/custom-armor"
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "25615b19-be18-4c6b-881e-a26a3404898f",
+            "version": "1.0.0"
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "e4ec1245-e27b-43ac-bb3f-d7b516cce324",
+            "version": "1.0.0"
+        }
+    ],
+    "capabilities": ["pbr"]
+}

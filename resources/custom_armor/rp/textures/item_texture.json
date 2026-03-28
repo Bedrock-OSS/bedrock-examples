@@ -1,0 +1,16 @@
+{
+    "texture_data": {
+        "wiki:custom_helmet": {
+            "textures": "textures/wiki/items/custom_helmet"
+        },
+        "wiki:custom_chestplate": {
+            "textures": "textures/wiki/items/custom_chestplate"
+        },
+        "wiki:custom_leggings": {
+            "textures": "textures/wiki/items/custom_leggings"
+        },
+        "wiki:custom_boots": {
+            "textures": "textures/wiki/items/custom_boots"
+        }
+    }
+}

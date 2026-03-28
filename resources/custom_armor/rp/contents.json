@@ -1,0 +1,94 @@
+{
+  "content": [
+    {
+      "path": "attachables/custom_boots.json"
+    },
+    {
+      "path": "attachables/custom_chestplate.json"
+    },
+    {
+      "path": "attachables/custom_helmet.json"
+    },
+    {
+      "path": "attachables/custom_leggings.json"
+    },
+    {
+      "path": "manifest.json"
+    },
+    {
+      "path": "pack_icon.png"
+    },
+    {
+      "path": "texts/en_US.lang"
+    },
+    {
+      "path": "textures/item_texture.json"
+    },
+    {
+      "path": "textures/textures_list.json"
+    },
+    {
+      "path": "textures/wiki/items/custom_boots.png"
+    },
+    {
+      "path": "textures/wiki/items/custom_boots.texture_set.json"
+    },
+    {
+      "path": "textures/wiki/items/custom_boots_mers.tga"
+    },
+    {
+      "path": "textures/wiki/items/custom_chestplate.png"
+    },
+    {
+      "path": "textures/wiki/items/custom_chestplate.texture_set.json"
+    },
+    {
+      "path": "textures/wiki/items/custom_chestplate_mers.tga"
+    },
+    {
+      "path": "textures/wiki/items/custom_helmet.png"
+    },
+    {
+      "path": "textures/wiki/items/custom_helmet.texture_set.json"
+    },
+    {
+      "path": "textures/wiki/items/custom_helmet_mers.tga"
+    },
+    {
+      "path": "textures/wiki/items/custom_leggings.png"
+    },
+    {
+      "path": "textures/wiki/items/custom_leggings.texture_set.json"
+    },
+    {
+      "path": "textures/wiki/items/custom_leggings_mers.tga"
+    },
+    {
+      "path": "textures/wiki/models/armor/custom_1.png"
+    },
+    {
+      "path": "textures/wiki/models/armor/custom_1.texture_set.json"
+    },
+    {
+      "path": "textures/wiki/models/armor/custom_1_mers.tga"
+    },
+    {
+      "path": "textures/wiki/models/armor/custom_2.png"
+    },
+    {
+      "path": "textures/wiki/models/armor/custom_2.texture_set.json"
+    },
+    {
+      "path": "textures/wiki/models/armor/custom_2_mers.tga"
+    },
+    {
+      "path": "textures/wiki/models/armor/custom_baby.png"
+    },
+    {
+      "path": "textures/wiki/models/armor/custom_baby.texture_set.json"
+    },
+    {
+      "path": "textures/wiki/models/armor/custom_baby_mers.tga"
+    }
+  ]
+}

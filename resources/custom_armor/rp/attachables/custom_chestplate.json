@@ -1,0 +1,30 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "wiki:custom_chestplate",
+            "materials": {
+                "default": "armor",
+                "enchanted": "armor_enchanted"
+            },
+            "textures": {
+                "default": "textures/wiki/models/armor/custom_1",
+                "enchanted": "textures/misc/enchanted_actor_glint",
+                "baby": "textures/wiki/models/armor/custom_baby"
+            },
+            "geometry": {
+                "default": "geometry.humanoid.armor.chestplate",
+                "baby": "geometry.humanoid.baby.armor.chestplate"
+            },
+            "scripts": {
+                // Prevents parts of the player's skin from sticking through the armor
+                "parent_setup": "v.chest_layer_visible = false;",
+                "pre_animation": [
+                    // Variable used by the render controller to determine whether the "baby" geometry and texture should be used
+                    "v.use_baby_geo = q.is_baby && c.owning_entity->v.use_dedicated_baby_armor;"
+                ]
+            },
+            "render_controllers": ["controller.render.armor.v2"]
+        }
+    }
+}

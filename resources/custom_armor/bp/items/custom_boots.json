@@ -1,0 +1,52 @@
+{
+    "format_version": "1.26.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wiki:custom_boots",
+            // Places the item into the "Boots" group in the creative menu
+            "menu_category": {
+                "category": "equipment",
+                "group": "minecraft:itemGroup.name.boots"
+            }
+        },
+        "components": {
+            // Defines the texture from "item_texture.json" that will be displayed as the item's 2D icon
+            "minecraft:icon": "wiki:custom_boots",
+            // Prevents the item from stacking with itself like vanilla armor
+            "minecraft:max_stack_size": 1,
+            // Allows the armor to receive enchantments specific to its type
+            "minecraft:enchantable": {
+                "slot": "armor_feet",
+                "value": 10
+            },
+            // Allows the item to be worn in the feet slot, displaying the attachable defined in the RP
+            "minecraft:wearable": {
+                "slot": "slot.armor.feet",
+                "protection": 3
+            },
+            // Allows the item to take damage when worn
+            "minecraft:durability": {
+                "damage_chance": {
+                    "min": 60,
+                    "max": 100
+                },
+                "max_durability": 429
+            },
+            // Allows the item to be repaired after it has taken damage
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": ["minecraft:stick"], // The items that can be used to repair this item
+                        "repair_amount": "q.max_durability * 0.25" // Increases the durability by 25%
+                    }
+                ]
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_armor",
+                    "minecraft:trimmable_armors" // Allows the armor to be trimmed in a Smithing Table
+                ]
+            }
+        }
+    }
+}
