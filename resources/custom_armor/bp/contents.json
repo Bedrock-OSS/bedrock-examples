@@ -1,22 +1,22 @@
 {
-  "content": [
-    {
-      "path": "items/custom_boots.json"
-    },
-    {
-      "path": "items/custom_chestplate.json"
-    },
-    {
-      "path": "items/custom_helmet.json"
-    },
-    {
-      "path": "items/custom_leggings.json"
-    },
-    {
-      "path": "manifest.json"
-    },
-    {
-      "path": "pack_icon.png"
-    }
-  ]
+    "content": [
+        {
+            "path": "items/custom_boots.json"
+        },
+        {
+            "path": "items/custom_chestplate.json"
+        },
+        {
+            "path": "items/custom_helmet.json"
+        },
+        {
+            "path": "items/custom_leggings.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "pack_icon.png"
+        }
+    ]
 }

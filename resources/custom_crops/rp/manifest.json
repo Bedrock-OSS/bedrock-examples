@@ -5,7 +5,7 @@
         "description": "An add-on that demonstrates custom crops. Example from wiki.bedrock.dev!",
         "uuid": "4aa947fb-1a1e-4fe2-9af4-76dd2b00fd30",
         "version": "4.0.0",
-        "min_engine_version": "1.26.0"
+        "min_engine_version": "1.26.10"
     },
     "metadata": {
         "authors": ["Bedrock OSS", "QuazChick"],

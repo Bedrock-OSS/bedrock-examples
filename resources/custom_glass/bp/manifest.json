@@ -5,7 +5,7 @@
         "description": "An add-on that demonstrates custom glass blocks. Example from wiki.bedrock.dev!",
         "uuid": "335fde30-84d7-4f2d-ba4a-f5b0d2bcee64",
         "version": "1.1.2",
-        "min_engine_version": "1.26.0"
+        "min_engine_version": "1.26.10"
     },
     "metadata": {
         "authors": ["Bedrock OSS", "QuazChick"],

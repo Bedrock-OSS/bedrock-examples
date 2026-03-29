@@ -5,7 +5,7 @@
         "description": "An add-on that demonstrates blocks that can be placed facing intercardinal directions. Example from wiki.bedrock.dev!",
         "uuid": "ea936986-c674-4270-9a2c-77a8889f6134",
         "version": "1.0.0",
-        "min_engine_version": "1.26.0"
+        "min_engine_version": "1.26.10"
     },
     "metadata": {
         "authors": ["Bedrock OSS", "QuazChick"],

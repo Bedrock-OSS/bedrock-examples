@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.26.10",
     "minecraft:item": {
         "description": {
             "identifier": "wiki:custom_head", // Must be the same identifier as the block
