@@ -1,5 +1,5 @@
-pack.name=Ghostly Guide
-pack.description=Bedrock OSS Organization
+pack.name=Wiki Resource Pack
+pack.description=A Ghostly Guide
 
 entity.wiki:ghost.name=Ghost
 item.spawn_egg.entity.wiki:ghost.name=Ghost
