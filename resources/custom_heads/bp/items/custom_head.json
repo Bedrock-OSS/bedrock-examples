@@ -22,7 +22,7 @@
                 "slot": "cosmetic_head",
                 "value": 0
             },
-            "minecraft:max_stack_size": 1, // Currently, custom wearable items cannot be stackable
+            "minecraft:max_stack_size": 64, // Allows the item to be stacked
             "minecraft:rarity": "uncommon",
             // Allows the item to be equipped into the head slot
             "minecraft:wearable": {
