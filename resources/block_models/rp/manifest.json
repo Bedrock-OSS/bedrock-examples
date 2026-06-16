@@ -4,8 +4,8 @@
         "name": "Block Models Example",
         "description": "An add-on that demonstrates custom block models. Example from wiki.bedrock.dev!",
         "uuid": "1a5ddc78-cda1-4eb6-b3a4-c7cbcdf8175f",
-        "version": "1.2.0",
-        "min_engine_version": "1.26.10",
+        "version": "1.2.1",
+        "min_engine_version": "1.26.30",
         "pack_scope": "world"
     },
     "metadata": {
@@ -18,13 +18,13 @@
         {
             "type": "resources",
             "uuid": "526369d0-f052-4c4a-8471-f33caeb9bfdc",
-            "version": "1.2.0"
+            "version": "1.2.1"
         }
     ],
     "dependencies": [
         {
             "uuid": "157204d0-3cb8-49f9-a6c4-358a8d3581a9",
-            "version": "1.2.0"
+            "version": "1.2.1"
         }
     ],
     "capabilities": ["pbr"]

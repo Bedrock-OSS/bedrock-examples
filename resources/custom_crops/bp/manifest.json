@@ -4,8 +4,8 @@
         "name": "Custom Crops Example",
         "description": "An add-on that demonstrates custom crops. Example from wiki.bedrock.dev!",
         "uuid": "3e90193d-591f-4ed1-b95a-025263cc0530",
-        "version": "4.0.0",
-        "min_engine_version": "1.26.10"
+        "version": "4.0.1",
+        "min_engine_version": "1.26.30"
     },
     "metadata": {
         "authors": ["Bedrock OSS", "QuazChick"],
@@ -17,24 +17,24 @@
         {
             "type": "data",
             "uuid": "c57e3a1f-98fe-4896-a22e-df967b7b8d98",
-            "version": "4.0.0"
+            "version": "4.0.1"
         },
         {
             "type": "script",
             "language": "javascript",
             "entry": "index.js",
             "uuid": "55fa9bc4-6b83-4918-bf3a-77694cafdb84",
-            "version": "4.0.0"
+            "version": "4.0.1"
         }
     ],
     "dependencies": [
         {
             "uuid": "4aa947fb-1a1e-4fe2-9af4-76dd2b00fd30",
-            "version": "4.0.0"
+            "version": "4.0.1"
         },
         {
             "module_name": "@minecraft/server",
-            "version": "2.4.0"
+            "version": "2.8.0"
         }
     ]
 }

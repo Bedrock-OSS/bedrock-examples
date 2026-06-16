@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.10",
+    "format_version": "1.26.30",
     "minecraft:block": {
         "description": {
             "identifier": "wiki:custom_crop",
@@ -10,7 +10,7 @@
             }
         },
         "components": {
-            "tag:minecraft:crop": {},
+            "minecraft:tags": ["minecraft:crop"],
             "minecraft:collision_box": false,
             // Trigger growth on random ticks and when interacting with Bone Meal
             "wiki:crop_growth": {
@@ -36,7 +36,7 @@
                 "*": {
                     "texture": "wiki:custom_crop_0",
                     "render_method": "alpha_test_single_sided",
-                    "ambient_occlusion": false,
+                    "ambient_occlusion": 0,
                     "face_dimming": false
                 }
             },
@@ -104,7 +104,7 @@
                         "*": {
                             "texture": "wiki:custom_crop_1",
                             "render_method": "alpha_test_single_sided",
-                            "ambient_occlusion": false,
+                            "ambient_occlusion": 0,
                             "face_dimming": false
                         }
                     }
@@ -135,7 +135,7 @@
                         "*": {
                             "texture": "wiki:custom_crop_2",
                             "render_method": "alpha_test_single_sided",
-                            "ambient_occlusion": false,
+                            "ambient_occlusion": 0,
                             "face_dimming": false
                         }
                     }
@@ -175,7 +175,7 @@
                         "*": {
                             "texture": "wiki:custom_crop_3",
                             "render_method": "alpha_test_single_sided",
-                            "ambient_occlusion": false,
+                            "ambient_occlusion": 0,
                             "face_dimming": false
                         }
                     },

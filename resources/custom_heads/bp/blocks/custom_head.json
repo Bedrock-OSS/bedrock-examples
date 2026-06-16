@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.10",
+    "format_version": "1.26.30",
     "minecraft:block": {
         "description": {
             "identifier": "wiki:custom_head",
@@ -73,27 +73,27 @@
             "minecraft:material_instances": {
                 "down": {
                     "texture": "wiki:custom_head_bottom",
-                    "ambient_occlusion": false
+                    "ambient_occlusion": 0
                 },
                 "up": {
                     "texture": "wiki:custom_head_top",
-                    "ambient_occlusion": false
+                    "ambient_occlusion": 0
                 },
                 "north": {
                     "texture": "wiki:custom_head_front",
-                    "ambient_occlusion": false
+                    "ambient_occlusion": 0
                 },
                 "south": {
                     "texture": "wiki:custom_head_back",
-                    "ambient_occlusion": false
+                    "ambient_occlusion": 0
                 },
                 "west": {
                     "texture": "wiki:custom_head_left",
-                    "ambient_occlusion": false
+                    "ambient_occlusion": 0
                 },
                 "east": {
                     "texture": "wiki:custom_head_right",
-                    "ambient_occlusion": false
+                    "ambient_occlusion": 0
                 }
             }
         },
