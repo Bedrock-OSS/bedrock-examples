@@ -1,0 +1,44 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "wiki:three_way_arrow",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "wiki:three_way_rotation": [0, 1, 2]
+            }
+        },
+        "components": {
+            // Custom component used to set the rotation state
+            "wiki:n_way_rotation": {
+                "rotation_state": "wiki:three_way_rotation",
+                "y_rotation_offset": 180 // Face towards the player
+            },
+            // Visuals
+            "minecraft:geometry": {
+                "identifier": "geometry.wiki_arrow",
+                "n_way_visual_rotation": {
+                    "y": "wiki:three_way_rotation"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "wiki:arrow",
+                    "render_method": "alpha_test"
+                }
+            },
+            // Collision and selection boxes
+            // Remember that these will not rotate with the geometry so it's best to keep them symmetrical
+            "minecraft:collision_box": {
+                "origin": [-7, 0, -7],
+                "size": [14, 1, 14]
+            },
+            "minecraft:selection_box": {
+                "origin": [-7, 0, -7],
+                "size": [14, 1, 14]
+            }
+        }
+    }
+}

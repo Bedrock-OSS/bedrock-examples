@@ -1,0 +1,25 @@
+{
+    "content": [
+        {
+            "path": "blocks/cardinal_arrow.json"
+        },
+        {
+            "path": "blocks/sixteen_way_arrow.json"
+        },
+        {
+            "path": "blocks/three_way_arrow.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "pack_icon.png"
+        },
+        {
+            "path": "scripts/index.js"
+        },
+        {
+            "path": "scripts/nWayRotation.js"
+        }
+    ]
+}

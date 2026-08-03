@@ -1,0 +1,31 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.wiki_arrow",
+                "texture_width": 16,
+                "texture_height": 16
+            },
+            "bones": [
+                {
+                    "name": "head",
+                    "pivot": [0, 0, 0],
+                    "cubes": [
+                        {
+                            "origin": [-5, 0.1, -7],
+                            "size": [10, 0, 14],
+                            "uv": {
+                                "up": {
+                                    "uv": [3, 1],
+                                    "uv_size": [10, 14],
+                                    "uv_rotation": 180
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

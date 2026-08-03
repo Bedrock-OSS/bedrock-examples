@@ -1,0 +1,42 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "wiki:sixteen_way_arrow",
+            "menu_category": {
+                "category": "construction"
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": ["minecraft:sixteen_way_rotation"],
+                    "y_rotation_offset": 180 // Face towards the player
+                }
+            }
+        },
+        "components": {
+            // Visuals
+            "minecraft:geometry": {
+                "identifier": "geometry.wiki_arrow",
+                "n_way_visual_rotation": {
+                    "y": "minecraft:sixteen_way_rotation"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "wiki:arrow",
+                    "render_method": "alpha_test"
+                }
+            },
+            // Collision and selection boxes
+            // Remember that these will not rotate with the geometry so it's best to keep them symmetrical
+            "minecraft:collision_box": {
+                "origin": [-7, 0, -7],
+                "size": [14, 1, 14]
+            },
+            "minecraft:selection_box": {
+                "origin": [-7, 0, -7],
+                "size": [14, 1, 14]
+            }
+        }
+    }
+}
