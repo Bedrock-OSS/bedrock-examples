@@ -1,2 +1,1 @@
-import './headDrops.js';
-import './intercardinalOrientation.js';
+import "./headDrops.js";

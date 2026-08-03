@@ -1,16 +1,15 @@
 {
-    "format_version": "1.26.30",
+    "format_version": "1.26.40",
     "minecraft:block": {
         "description": {
             "identifier": "wiki:custom_head",
             "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": ["minecraft:sixteen_way_rotation"],
+                    "y_rotation_offset": 180
+                },
                 "minecraft:placement_position": {
                     "enabled_states": ["minecraft:block_face"]
-                }
-            },
-            "states": {
-                "wiki:intercardinal_direction": {
-                    "values": { "min": 0, "max": 15 }
                 }
             }
         },
@@ -61,15 +60,6 @@
                 ]
             },
             // Visuals
-            "minecraft:geometry": {
-                "identifier": "geometry.custom_head",
-                "bone_visibility": {
-                    "0": "math.mod(q.block_state('wiki:intercardinal_direction'), 4) == 0",
-                    "22.5": "math.mod(q.block_state('wiki:intercardinal_direction'), 4) == 1",
-                    "45": "math.mod(q.block_state('wiki:intercardinal_direction'), 4) == 2",
-                    "67.5": "math.mod(q.block_state('wiki:intercardinal_direction'), 4) == 3"
-                }
-            },
             "minecraft:material_instances": {
                 "down": {
                     "texture": "wiki:custom_head_bottom",
@@ -95,41 +85,20 @@
                     "texture": "wiki:custom_head_right",
                     "ambient_occlusion": 0
                 }
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.custom_head",
+                "n_way_visual_rotation": {
+                    "y": "minecraft:sixteen_way_rotation"
+                }
             }
         },
         "permutations": [
+            // Disable N-way rotation when placed on a side face
             {
-                "condition": "q.block_state('minecraft:block_face') == 'up'",
+                "condition": "q.block_state('minecraft:block_face') != 'up'",
                 "components": {
-                    // Sets the "wiki:intercardinal_direction" state to the correct value before the block is placed
-                    "wiki:intercardinal_orientation": {
-                        "y_rotation_offset": 180 // Face towards the player
-                    }
-                }
-            },
-            // Intercardinal directions
-            {
-                "condition": "q.block_state('wiki:intercardinal_direction') >= 0",
-                "components": {
-                    "minecraft:transformation": { "rotation": [0, 180, 0] }
-                }
-            },
-            {
-                "condition": "q.block_state('wiki:intercardinal_direction') >= 4",
-                "components": {
-                    "minecraft:transformation": { "rotation": [0, 90, 0] }
-                }
-            },
-            {
-                "condition": "q.block_state('wiki:intercardinal_direction') >= 8",
-                "components": {
-                    "minecraft:transformation": { "rotation": [0, 0, 0] }
-                }
-            },
-            {
-                "condition": "q.block_state('wiki:intercardinal_direction') >= 12",
-                "components": {
-                    "minecraft:transformation": { "rotation": [0, -90, 0] }
+                    "minecraft:geometry": "geometry.custom_head"
                 }
             },
             // Block face attachments
