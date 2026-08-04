@@ -13,6 +13,9 @@
                 },
                 "fixed": {
                     "rotation": [0, -90, 0]
+                },
+                "shelf": {
+                    "rotation": [0, -90, 0]
                 }
             },
             "bones": [
