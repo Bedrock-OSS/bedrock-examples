@@ -26,6 +26,9 @@
             },
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 1.5
+            },
+            "minecraft:instrument_sound": {
+                "up": "note.hat"
             }
         }
     }
