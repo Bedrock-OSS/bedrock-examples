@@ -1,0 +1,16 @@
+{
+    "content": [
+        {
+            "path": "blocks/custom_fence.json"
+        },
+        {
+            "path": "items/custom_fence.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "pack_icon.png"
+        }
+    ]
+}

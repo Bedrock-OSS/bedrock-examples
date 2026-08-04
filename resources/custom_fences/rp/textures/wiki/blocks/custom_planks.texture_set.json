@@ -1,0 +1,7 @@
+﻿{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "custom_planks",
+        "metalness_emissive_roughness": "custom_planks_mer"
+    }
+}

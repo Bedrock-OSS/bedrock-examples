@@ -1,0 +1,43 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "block_culling/custom_fence.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "models/blocks/custom_fence.geo.json"
+        },
+        {
+            "path": "models/blocks/custom_fence_carried.geo.json"
+        },
+        {
+            "path": "pack_icon.png"
+        },
+        {
+            "path": "texts/en_US.lang"
+        },
+        {
+            "path": "texts/languages.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/wiki/blocks/custom_planks.png"
+        },
+        {
+            "path": "textures/wiki/blocks/custom_planks.texture_set.json"
+        },
+        {
+            "path": "textures/wiki/blocks/custom_planks_mer.png"
+        }
+    ]
+}

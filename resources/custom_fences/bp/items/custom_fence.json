@@ -1,0 +1,22 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wiki:custom_fence",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.fence"
+            }
+        },
+        "components": {
+            "minecraft:block_placer": {
+                "block": "wiki:custom_fence",
+                "aligned_placement": true,
+                "replace_block_item": true
+            },
+            "minecraft:fuel": {
+                "duration": 3
+            }
+        }
+    }
+}
