@@ -1,31 +1,37 @@
 {
-  "content": [
-    {
-      "path": "blocks.json"
-    },
-    {
-      "path": "manifest.json"
-    },
-    {
-      "path": "models/blocks/arrow.geo.json"
-    },
-    {
-      "path": "pack_icon.png"
-    },
-    {
-      "path": "textures/terrain_texture.json"
-    },
-    {
-      "path": "textures/textures_list.json"
-    },
-    {
-      "path": "textures/wiki/blocks/arrow.png"
-    },
-    {
-      "path": "textures/wiki/blocks/arrow.texture_set.json"
-    },
-    {
-      "path": "textures/wiki/blocks/arrow_mer.png"
-    }
-  ]
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "models/blocks/arrow.geo.json"
+        },
+        {
+            "path": "pack_icon.png"
+        },
+        {
+            "path": "texts/en_US.lang"
+        },
+        {
+            "path": "texts/languages.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/wiki/blocks/arrow.png"
+        },
+        {
+            "path": "textures/wiki/blocks/arrow.texture_set.json"
+        },
+        {
+            "path": "textures/wiki/blocks/arrow_mer.png"
+        }
+    ]
 }
