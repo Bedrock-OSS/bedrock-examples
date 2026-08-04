@@ -76,7 +76,7 @@
                 "offset": [0, 12, 0]
             },
             "minecraft:instrument_sound": {
-                "up": "note.banjo"
+                "up": "note.bassattack"
             },
             "minecraft:selection_box": {
                 "origin": [-2, 0, -2],
