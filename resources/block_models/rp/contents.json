@@ -1,9 +1,6 @@
 {
     "content": [
         {
-            "path": "blocks.json"
-        },
-        {
             "path": "manifest.json"
         },
         {

@@ -4,8 +4,8 @@
         "name": "Custom Fences Example",
         "description": "A pack to demonstrate custom fence blocks. Example from wiki.bedrock.dev!",
         "uuid": "2f0f198e-2861-412f-a669-49e106fe7380",
-        "version": "1.0.0",
-        "min_engine_version": "1.26.40"
+        "version": "1.0.1",
+        "min_engine_version": "1.26.50"
     },
     "metadata": {
         "authors": ["Bedrock OSS", "QuazChick"],
@@ -17,13 +17,13 @@
         {
             "type": "data",
             "uuid": "7158ba91-0db5-4c13-85a5-76463cad9e20",
-            "version": "1.0.0"
+            "version": "1.0.1"
         }
     ],
     "dependencies": [
         {
             "uuid": "dbcfed1a-9412-4145-bf6a-2f5dd43171f5",
-            "version": "1.0.0"
+            "version": "1.0.1"
         }
     ]
 }

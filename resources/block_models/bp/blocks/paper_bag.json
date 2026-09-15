@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.40",
+    "format_version": "1.26.50",
     "minecraft:block": {
         "description": {
             "identifier": "wiki:paper_bag",
@@ -34,6 +34,9 @@
                     "texture": "wiki:paper_bag_side_gusset",
                     "render_method": "alpha_test" // Must be the same in all instances
                 }
+            },
+            "minecraft:sound": {
+                "sound": "itemframe"
             }
         }
     }

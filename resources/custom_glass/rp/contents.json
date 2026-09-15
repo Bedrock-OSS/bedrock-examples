@@ -1,9 +1,6 @@
 {
     "content": [
         {
-            "path": "blocks.json"
-        },
-        {
             "path": "block_culling/custom_glass.json"
         },
         {

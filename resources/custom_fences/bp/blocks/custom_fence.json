@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.40",
+    "format_version": "1.26.50",
     "minecraft:block": {
         "description": {
             "identifier": "wiki:custom_fence",
@@ -74,6 +74,9 @@
             // Allows leads to be attached to the fence
             "minecraft:leashable": {
                 "offset": [0, 12, 0]
+            },
+            "minecraft:sound": {
+                "sound": "wood"
             },
             "minecraft:instrument_sound": {
                 "up": "note.bassattack"

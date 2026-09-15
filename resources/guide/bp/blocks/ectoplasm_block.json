@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.40",
+    "format_version": "1.26.50",
     "minecraft:block": {
         "description": {
             "identifier": "wiki:ectoplasm_block",
@@ -16,6 +16,9 @@
                     "texture": "wiki:ectoplasm_block",
                     "render_method": "blend"
                 }
+            },
+            "minecraft:sound": {
+                "sound": "honey_block"
             }
         }
     }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.40",
+    "format_version": "1.26.50",
     "minecraft:block": {
         "description": {
             "identifier": "wiki:custom_crop",
@@ -69,6 +69,9 @@
             // Prevent blocks such as fences and glass panes from connecting
             "minecraft:connection_rule": {
                 "accepts_connections_from": "none"
+            },
+            "minecraft:sound": {
+                "sound": "grass"
             }
         },
         "permutations": [

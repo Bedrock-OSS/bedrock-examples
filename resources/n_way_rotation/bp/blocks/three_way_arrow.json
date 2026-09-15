@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.40",
+    "format_version": "1.26.50",
     "minecraft:block": {
         "description": {
             "identifier": "wiki:three_way_arrow",
@@ -28,6 +28,9 @@
                     "texture": "wiki:arrow",
                     "render_method": "alpha_test"
                 }
+            },
+            "minecraft:sound": {
+                "sound": "metal"
             },
             // Collision and selection boxes
             // Remember that these will not rotate with the geometry so it's best to keep them symmetrical

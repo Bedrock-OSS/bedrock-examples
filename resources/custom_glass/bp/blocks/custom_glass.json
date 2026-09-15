@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.40",
+    "format_version": "1.26.50",
     "minecraft:block": {
         "description": {
             "identifier": "wiki:custom_glass",
@@ -26,6 +26,9 @@
             },
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 1.5
+            },
+            "minecraft:sound": {
+                "sound": "glass"
             },
             "minecraft:instrument_sound": {
                 "up": "note.hat"

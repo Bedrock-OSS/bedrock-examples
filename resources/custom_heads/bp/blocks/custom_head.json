@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.40",
+    "format_version": "1.26.50",
     "minecraft:block": {
         "description": {
             "identifier": "wiki:custom_head",
@@ -58,6 +58,9 @@
                         "on_liquid_touches": "popped" // Break and drop as an item when water flows into the block
                     }
                 ]
+            },
+            "minecraft:sound": {
+                "sound": "stone"
             },
             // Visuals
             "minecraft:material_instances": {

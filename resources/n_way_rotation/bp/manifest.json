@@ -4,8 +4,8 @@
         "name": "N-Way Rotation Example",
         "description": "An add-on that demonstrates blocks that can be placed facing a custom number of directions. Example from wiki.bedrock.dev!",
         "uuid": "17477d0a-2e7e-4d35-94a8-dd7c0c7ff4e9",
-        "version": "1.0.0",
-        "min_engine_version": "1.26.40"
+        "version": "1.0.1",
+        "min_engine_version": "1.26.50"
     },
     "metadata": {
         "authors": ["Bedrock OSS", "QuazChick"],
@@ -17,24 +17,24 @@
         {
             "type": "data",
             "uuid": "f5a70b48-4da3-4ce8-83d2-dd040bf6bd69",
-            "version": "1.0.0"
+            "version": "1.0.1"
         },
         {
             "type": "script",
             "language": "javascript",
             "entry": "index.js",
             "uuid": "55569122-98fb-4a33-90ca-b3094246c2e4",
-            "version": "1.0.0"
+            "version": "1.0.1"
         }
     ],
     "dependencies": [
         {
             "uuid": "8a7d4b89-a765-41b1-814b-7b1caf48ebd5",
-            "version": "1.0.0"
+            "version": "1.0.1"
         },
         {
             "module_name": "@minecraft/server",
-            "version": "2.8.0"
+            "version": "2.10.0"
         }
     ]
 }
