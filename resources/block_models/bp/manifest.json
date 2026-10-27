@@ -5,7 +5,7 @@
         "description": "A pack to demonstrate custom block models. Example from wiki.bedrock.dev!",
         "uuid": "157204d0-3cb8-49f9-a6c4-358a8d3581a9",
         "version": "1.2.3",
-        "min_engine_version": "1.26.50"
+        "min_engine_version": "1.26.60"
     },
     "metadata": {
         "authors": ["Bedrock-OSS", "QuazChick"],

@@ -5,7 +5,7 @@
         "description": "An add-on that demonstrates custom mob head blocks that can be worn. Example from wiki.bedrock.dev!",
         "uuid": "8a539b8e-683c-45fe-a40d-a5195a52e5ec",
         "version": "1.1.1",
-        "min_engine_version": "1.26.50"
+        "min_engine_version": "1.26.60"
     },
     "metadata": {
         "authors": ["Bedrock OSS", "QuazChick"],
@@ -34,7 +34,7 @@
         },
         {
             "module_name": "@minecraft/server",
-            "version": "2.10.0"
+            "version": "2.11.0"
         }
     ]
 }

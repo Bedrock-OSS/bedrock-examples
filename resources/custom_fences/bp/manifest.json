@@ -5,7 +5,7 @@
         "description": "A pack to demonstrate custom fence blocks. Example from wiki.bedrock.dev!",
         "uuid": "2f0f198e-2861-412f-a669-49e106fe7380",
         "version": "1.0.1",
-        "min_engine_version": "1.26.50"
+        "min_engine_version": "1.26.60"
     },
     "metadata": {
         "authors": ["Bedrock OSS", "QuazChick"],

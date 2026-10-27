@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.50",
+    "format_version": "1.26.60",
     "minecraft:block": {
         "description": {
             "identifier": "wiki:custom_head",
@@ -15,10 +15,12 @@
         },
         "components": {
             // Collision and selection boxes
-            "minecraft:collision_box": {
-                "origin": [-4, 0, -4],
-                "size": [8, 8, 8]
-            },
+            "minecraft:collision_box": [
+                {
+                    "origin": [-4, 0, -4],
+                    "size": [8, 8, 8]
+                }
+            ],
             "minecraft:selection_box": {
                 "origin": [-4, 0, -4],
                 "size": [8, 8, 8]

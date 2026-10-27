@@ -5,7 +5,7 @@
         "description": "An add-on that demonstrates blocks that can be placed facing a custom number of directions. Example from wiki.bedrock.dev!",
         "uuid": "17477d0a-2e7e-4d35-94a8-dd7c0c7ff4e9",
         "version": "1.0.1",
-        "min_engine_version": "1.26.50"
+        "min_engine_version": "1.26.60"
     },
     "metadata": {
         "authors": ["Bedrock OSS", "QuazChick"],
@@ -34,7 +34,7 @@
         },
         {
             "module_name": "@minecraft/server",
-            "version": "2.10.0"
+            "version": "2.11.0"
         }
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.50",
+    "format_version": "1.26.60",
     "minecraft:block": {
         "description": {
             "identifier": "wiki:cardinal_arrow",
@@ -32,10 +32,12 @@
             },
             // Collision and selection boxes
             // Remember that these will not rotate with the geometry so it's best to keep them symmetrical
-            "minecraft:collision_box": {
-                "origin": [-7, 0, -7],
-                "size": [14, 1, 14]
-            },
+            "minecraft:collision_box": [
+                {
+                    "origin": [-7, 0, -7],
+                    "size": [14, 1, 14]
+                }
+            ],
             "minecraft:selection_box": {
                 "origin": [-7, 0, -7],
                 "size": [14, 1, 14]

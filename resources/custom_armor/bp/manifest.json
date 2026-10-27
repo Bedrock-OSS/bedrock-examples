@@ -5,7 +5,7 @@
         "description": "An add-on that demonstrates custom armor sets. Example from wiki.bedrock.dev!",
         "uuid": "e4ec1245-e27b-43ac-bb3f-d7b516cce324",
         "version": "1.0.3",
-        "min_engine_version": "1.26.50"
+        "min_engine_version": "1.26.60"
     },
     "metadata": {
         "authors": ["Bedrock OSS", "QuazChick"],
