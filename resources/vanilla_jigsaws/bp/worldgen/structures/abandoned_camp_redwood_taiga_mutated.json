@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:jigsaw": {
+    "description": {
+      "identifier": "minecraft:abandoned_camp_redwood_taiga_mutated"
+    },
+    "biome_filters": [
+      { "test": "has_biome_tag", "operator": "==", "value": "forest" },
+      { "test": "has_biome_tag", "operator": "==", "value": "mega" },
+      { "test": "has_biome_tag", "operator": "==", "value": "mutated" },
+      { "test": "has_biome_tag", "operator": "==", "value": "taiga" },
+      { "test": "has_biome_tag", "operator": "==", "value": "has_structure_abandoned_camp" }
+    ],
+    "step": "surface_structures",
+    "terrain_adaptation": "beard_thin",
+    "start_pool": "minecraft:abandoned_camp/tent/old_growth_spruce_taiga",
+    "max_depth": 3,
+    "max_distance_from_center": {
+      "horizontal": 116,
+      "vertical": 116
+    },
+    "start_height": {
+      "type": "constant",
+      "value": {
+        "absolute": 0
+      }
+    },
+    "dimension_padding": 10,
+    "heightmap_projection": "world_surface"
+  }
+}

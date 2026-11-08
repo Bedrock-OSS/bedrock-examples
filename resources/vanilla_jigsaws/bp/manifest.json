@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Vanilla Jigsaw Structure files (trail ruins and abandoned camps)",
+    "name": "Vanilla Jigsaws",
+    "uuid": "850050cf-9c05-4dad-92ee-61c8baaab7a1",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "description": "data",
+      "type": "data",
+      "uuid": "a2829550-fa57-4a14-9e0a-c30298f0311f",
+      "version": [0, 0, 1]
+    }
+  ]
+}

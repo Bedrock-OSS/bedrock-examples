@@ -1,0 +1,90 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "minecraft:abandoned_camp/tent/meadow"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/meadow/tent_meadow_1",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/meadow/tent_meadow_10",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/meadow/tent_meadow_2",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/meadow/tent_meadow_3",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/meadow/tent_meadow_4",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/meadow/tent_meadow_5",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/meadow/tent_meadow_6",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/meadow/tent_meadow_7",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/meadow/tent_meadow_8",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/meadow/tent_meadow_9",
+          "projection": "rigid"
+        },
+        "weight": 1
+      }
+    ]
+  }
+}
