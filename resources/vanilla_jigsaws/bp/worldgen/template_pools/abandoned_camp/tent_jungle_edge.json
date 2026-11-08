@@ -1,0 +1,90 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "minecraft:abandoned_camp/tent/sparse_jungle"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/sparse_jungle/tent_sparse_jungle_1",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/sparse_jungle/tent_sparse_jungle_10",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/sparse_jungle/tent_sparse_jungle_2",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/sparse_jungle/tent_sparse_jungle_3",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/sparse_jungle/tent_sparse_jungle_4",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/sparse_jungle/tent_sparse_jungle_5",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/sparse_jungle/tent_sparse_jungle_6",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/sparse_jungle/tent_sparse_jungle_7",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/sparse_jungle/tent_sparse_jungle_8",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "abandoned_camp/tent/sparse_jungle/tent_sparse_jungle_9",
+          "projection": "rigid"
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

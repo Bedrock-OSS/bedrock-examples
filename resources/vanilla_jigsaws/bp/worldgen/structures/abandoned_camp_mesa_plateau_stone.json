@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:jigsaw": {
+    "description": {
+      "identifier": "minecraft:abandoned_camp_mesa_plateau_stone"
+    },
+    "biome_filters": [
+      { "test": "has_biome_tag", "operator": "==", "value": "mesa" },
+      { "test": "has_biome_tag", "operator": "==", "value": "plateau" },
+      { "test": "has_biome_tag", "operator": "==", "value": "has_structure_abandoned_camp" }
+    ],
+    "step": "surface_structures",
+    "terrain_adaptation": "beard_thin",
+    "start_pool": "minecraft:abandoned_camp/tent/wooded_badlands",
+    "max_depth": 3,
+    "max_distance_from_center": {
+      "horizontal": 116,
+      "vertical": 116
+    },
+    "start_height": {
+      "type": "constant",
+      "value": {
+        "absolute": 0
+      }
+    },
+    "dimension_padding": 10,
+    "heightmap_projection": "world_surface"
+  }
+}
